@@ -1,0 +1,36 @@
+#head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .1px solid rgb(247, 247, 247);
+    padding: 8px 0;
+}
+
+._col-1 {
+    margin-left: 140px;
+}
+
+._col-1 .span-1 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+._col-2 {
+    margin-right: 140px;
+}
+
+._col-2 ._row-1 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+._col-2 ._row-1 li {
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 8px 10px;
+}
+
+._col-2 ._row-1 li:hover {
+    // Code Here
+}
